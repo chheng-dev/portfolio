@@ -1,0 +1,235 @@
+@media (min-width: 992px) and (max-width: 1280px) {
+  .about-img {
+    align-items: center;
+    display: flex;
+  }
+  .ad-title h5{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 992px){
+  .home-content .home-buttons,
+  .home-content h2,
+  .home-content h1 {
+    margin-left: 190px !important;
+  }
+
+  .theme-btn{
+    position: relative;
+    /* right: 20px !important; */
+  }
+
+  .about{
+    margin-left: 190px !important;
+  }
+  .about-img img{
+    height: 300px !important;
+  }
+  .about-content p {
+    color: gray;
+    font-size: 13px;
+  }
+  .about-content h1 {
+    margin-bottom: 0;
+  }
+
+  .education{
+    margin-left: 190px !important;
+  }
+
+  .techstack{
+    margin-left: 40px !important;
+  }
+
+  .project{
+    margin-left: 40px !important;
+  }
+
+  .work-experience {
+    margin-left: 190px !important;
+  }
+
+  .contact {
+    margin-left: 190px !important;
+  }
+
+  .footer {
+    text-align: center;
+    margin-left: 190px !important;
+  }
+
+  h2 {
+    font-size: 24px !important;
+  }
+
+  h3 {
+    font-size: 22px !important;
+  }
+  h4{
+    font-size: 18px !important;
+  }
+  .card1 .image{
+    margin-top: 0 !important;
+  }
+}
+
+@media (max-width: 480px){
+  .home-content h2 {
+    padding-top: 70px !important;
+  }
+  .home-container{
+    height: 350px !important;
+  }
+  .home-content .home-buttons,
+  .home-content h2,
+  .home-content h1 {
+    margin-left: 0px !important;
+  }
+  .home-buttons{
+    display: flex;
+    flex-direction: column;
+  }
+  .home-buttons .btn-cv{
+    margin-left: 0 !important;
+    margin-top: 1rem;
+  }
+  .home-buttons .btn-hire{
+    width: 100% !important;
+  }
+
+  .about,
+  .education,
+  .techstack,
+  .project,
+  .work-experience,
+  .contact{
+    margin-left: 0px !important;
+    padding-left: 0 !important;
+  }
+
+  .about{
+    padding: 4px !important;
+    margin: 0 !important;
+    margin-top: 30px !important;
+
+  }
+
+  .about-img img{
+    padding: 8px !important;
+    border-radius: 18px !important;
+  }
+
+  .about-content p{
+    font-size: 16px !important;
+  }
+
+  .headerline hr{
+    width: 80% !important;
+  }
+
+  .sidebar{
+    display: none !important;
+  }
+
+  .menu{
+    background-color: var(--primary-color);
+    color: white;
+    position: fixed;
+    padding: 8px 12px;
+    z-index: 1;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .menu h5{
+    margin-bottom: 0;
+    margin-left: 20px;
+  }
+  
+  .close-btn {
+    font-weight: bold;
+    color: black;
+    position: relative;
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+
+  .drawer .nav-items .nav-item {
+    color: black !important;
+  }
+
+  .drawer .nav-link {
+    /* #F3F3F4 */
+    margin-top: 0;
+    padding: 8px 12px;
+    line-height: 35px;
+  }
+
+  .drawer .nav-link .active {
+    background-color: #F3F3F4;
+    display: block;
+  }
+
+  .drawer .nav-items .nav-item{
+    margin: 0 !important;
+  }
+  
+  .sidebar-section{
+    display: none;
+  }
+
+  .drawer .profile .navbar-profile-pic img{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+  }
+
+  .theme-btn {
+    position: relative;
+    top: 20px !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .EZDrawer .EZDrawer__container{
+    height: 80% !important;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .drawer .profile {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 1rem;
+    margin-left: 12px;
+    align-items: center;
+  }
+
+  .drawer .profile-name h4 {
+    color: black;
+    margin-bottom: 0;
+  }
+
+  .drawer .profile-name span {
+    color: grey;
+  }
+
+  .drawer hr {
+    border-bottom: 1px solid var(--secondary-color);
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .drawer .theme-mode {
+    position: absolute;
+    bottom: 20px;
+    color: black;
+    margin-left: 12px;
+  }
+}

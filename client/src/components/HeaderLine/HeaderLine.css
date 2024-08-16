@@ -1,0 +1,10 @@
+.headerline hr {
+  color: #138781;
+  width: 400px;
+  margin: 10px auto;
+}
+.headerline h2 {
+  font-weight: bold;
+  color: #138781;
+}
+

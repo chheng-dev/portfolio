@@ -1,0 +1,13 @@
+.work-experience {
+  margin-left: 150px;
+  border-radius: 5px;
+  padding-top: 20px;
+  background-color: #1387812a;
+
+}
+.work-experience .vertical-timeline-element-title{
+  color: #138781;
+}
+.work-experience .vertical-timeline-element-subtitle{
+  color: #1e1e2c78;
+}
